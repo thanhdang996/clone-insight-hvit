@@ -1,10 +1,10 @@
 # Firstly, you have to download all software below :
-- Visual Studio 2019
-- Visual Studio Code
-- Nodejs
-- Git
-- Postman
-- MySQL Workbench
+1. Install Nodejs : https://nodejs.org/en/
+2. Install Visual Studio 2019 : https://my.visualstudio.com/Downloads?q=Visual%20Studio%202019
+3. Install Visual Studio Code : https://code.visualstudio.com/download
+4. Install MySQL Workbench : https://dev.mysql.com/downloads/workbench/
+5. Install Git : https://git-scm.com/downloads
+6. Install PostmanL: https://www.postman.com/downloads/
 
 # Secondly, get source code LTS LGT Procuratio Project
  1. You need to login with account lotus (...@lotus-ts.com)
