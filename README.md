@@ -30,8 +30,10 @@ Copy link :
 4. Create new branch 
 ![image](https://user-images.githubusercontent.com/82664727/159406751-7449c548-8d4b-4b77-9ef4-9ebce400d49d.png)
 
-5. Set branch name following the rules, then click button **_Create_**:
-![image](https://user-images.githubusercontent.com/82664727/159407182-3ae1e071-83a2-4a8a-a9af-cbc43f397b18.png)
+5. Set branch name following the rules: 
+   Branch name: dev/AB# + ticket number + content summary (eg: dev/AB#123_TestData)
+   Commit: AB# + ticket number : commit description (eg: AB#123: Test data)
+   then click button **_Create_**:
 ![image](https://user-images.githubusercontent.com/82664727/159407113-121d094c-9cb3-4edb-869b-f55969a5ee63.png)
 
 6. Change connection string in **_appsetting.Development.json_** at _**Identity.Api**_ and _**Product.Api**_
@@ -40,7 +42,7 @@ Copy link :
 Change _CorsOrigins_, _AppDomain_, _IssuerUri_
 In _ConnectionStrings _ change _Server_ to your localhost
 ![image](https://user-images.githubusercontent.com/82664727/159408709-47774256-da6a-4d2e-9110-142a1c8a9fbf.png)
-Change Uid and password (Pwd) like user, password you use to login in MySql Workbench
+Change Uid and password (Pwd) as same as user, password you use to login in MySql Workbench
 ![image](https://user-images.githubusercontent.com/82664727/159408880-6fc91a3a-0af7-42ee-ade3-0ee55d7c7bd2.png)
 And change this
 ![image](https://user-images.githubusercontent.com/82664727/159408931-604eefdd-1401-4c1f-bb81-85078094f057.png)
@@ -54,7 +56,7 @@ And user, password are the same with appsetting.Development.json at Identity.Api
 Right click to your solution and select _Set Starup Project_...
 ![image](https://user-images.githubusercontent.com/82664727/159410650-ec124b38-1418-496c-ad25-7f57e1b6b842.png)
 
-Select _Multipkle startup project_ and change _Action_ of Identity.Api and Product.Api to **Start** then click _Apply/Ok_
+Select _Multiple startup project_ and change _Action_ of Identity.Api and Product.Api to **Start** then click _Apply/Ok_
 
 ![image](https://user-images.githubusercontent.com/82664727/159410565-9acf0902-b6eb-47b7-852d-7ab3b73260a1.png)
 
@@ -65,10 +67,11 @@ Select _Multipkle startup project_ and change _Action_ of Identity.Api and Produ
 1. Open **ClientApp** folder at _Product.Api_ project in Visual Studio Code  
 ![image](https://user-images.githubusercontent.com/82664727/159424807-074928a6-ebf8-40ea-ae46-17b34fe4083e.png)
 
-2. Turn on terminal or Ctrl ~ in Visual Studio Code and install yarn : ```yarn install```
+2. Turn on terminal or **Ctrl ~** in Visual Studio Code and install yarn : ```yarn install```
 ![image](https://user-images.githubusercontent.com/82664727/159425254-6576cc84-0b64-4343-84de-d296474f8623.png)
 
-3. Open manage computer certificates in computer and export file localhost with private key that you want and name will be **localhost.pfx**
+3. Open manage computer certificates in computer and 
+port file localhost with private key that you want and name will be **localhost.pfx**
 ![image](https://user-images.githubusercontent.com/82664727/159425927-6fff618d-06cc-422f-897d-9ef9fa09605b.png)
 ![image](https://user-images.githubusercontent.com/82664727/159426172-06ae5cce-93fe-44de-8a2b-c4428049a247.png)
 ![image](https://user-images.githubusercontent.com/82664727/159426978-1626dc80-3bd9-4e00-ac88-586e1656750d.png)
