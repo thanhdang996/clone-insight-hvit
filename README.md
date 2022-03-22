@@ -10,7 +10,7 @@
  1. You need to login with account lotus (...@lotus-ts.com)
  
  2. Click link to get source : https://dev.azure.com/LGTVN/_git/LTS%20LGT%20Procuratio%20Project
-![image](https://user-images.githubusercontent.com/82664727/159402637-75a3ff6d-d528-4604-8844-0a970db5e4bc.png)
+![image](https://user-images.githubusercontent.com/82664727/159437678-6baa52fe-8bf7-4081-9198-3aef6fdd8f29.png)
 Copy link :  
 ![image](https://user-images.githubusercontent.com/82664727/159403054-c534188d-8372-4127-a712-95f22e21d0d9.png)
 
@@ -25,7 +25,7 @@ Copy link :
 ![image](https://user-images.githubusercontent.com/82664727/159406056-23c530c2-7a06-4b5a-a487-05251e9a3742.png)
 
 3. Choose tab **_git changes_**, pull latest code 
-![image](https://user-images.githubusercontent.com/82664727/159406553-8ab55859-9bca-4a0e-98df-09f5f9d348c7.png)
+![image](https://user-images.githubusercontent.com/82664727/159438661-eb56bf9c-0b16-403d-8f11-2cc1db24c59a.png)
 
 4. Create new branch 
 ![image](https://user-images.githubusercontent.com/82664727/159406751-7449c548-8d4b-4b77-9ef4-9ebce400d49d.png)
@@ -37,7 +37,7 @@ Copy link :
 ![image](https://user-images.githubusercontent.com/82664727/159407113-121d094c-9cb3-4edb-869b-f55969a5ee63.png)
 
 6. Change connection string in **_appsetting.Development.json_** at _**Identity.Api**_ and _**Product.Api**_
-![image](https://user-images.githubusercontent.com/82664727/159408376-735fad86-cfb4-4194-9c42-d9f70af9b3de.png)
+![image](https://user-images.githubusercontent.com/82664727/159439480-49d742ab-f3b5-4e11-8399-252574009ce2.png)
 ## In appsetting.Development.json at Identity.Api:
 Change _CorsOrigins_, _AppDomain_, _IssuerUri_
 In _ConnectionStrings _ change _Server_ to your localhost
